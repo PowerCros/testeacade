@@ -1,0 +1,326 @@
+body{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+   
+}
+h3{
+    background-color: #222;
+    text-align: center;
+    color: white;
+}
+p{
+    text-align: center;
+}
+.card{
+    background-color: #222;
+    color: white;
+    border: none;
+}
+.row{
+    text-align: center;
+}      
+
+.grid .cardmps .maps{
+   width: 100%;
+   flex: 1.45rem;
+   object-fit: cover;
+   height: 440px;
+   padding: 10px;
+}
+.grid  .cardsb{
+    padding: 10px;
+    color: white;
+    width: 100%;
+}
+
+.grid .cardsb h5 {
+    background-color: rgb(29, 28, 27);
+}
+.grid .cardsb p{
+    background-color: rgb(29, 28, 27);
+}
+.grid{
+   
+    align-items: center;
+    justify-content: center;
+}
+
+.cardps{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+
+}
+main.cardps section.cardep img{
+    width: 100%;
+}
+.cardps h5,h6{
+    background-color: #222;
+    text-align: center;
+}
+.cardep{
+    padding: 32px 20px;
+}
+footer img{
+    width: 30px;
+    height: 30px;
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.gridctt{
+    min-height: 100vh;
+    background: #222;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: rgb(29, 28, 27);
+    /* width: 500px; */
+    max-width: 800px;
+}
+section h2{
+    color: white;
+    font-size: 2.5rem;
+    margin: 1rem;
+}
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+form label{
+    color: white;
+    font-size: 17px;
+    margin-bottom: 2px;
+    text-align: left;
+}
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 15px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+form input:focus{
+    border-radius: 16px;
+}
+ form textarea{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 15px;
+    transition: all 0.5s;
+}
+form textarea:focus{
+    border-radius: 16px;
+}
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    transition: all 1s;
+    margin-bottom: 24px;
+
+}
+.gridctt{
+    margin-bottom: 20px;
+}
+.ctt{
+    background-color: rgb(29, 28, 27);
+    color: white;
+    text-align: left;
+
+}
+.ctt img{
+    width: 30ox;
+    height: 30px;
+    padding: 3px;
+}
+.ctt h2{
+    text-align: center;
+}
+hr{
+    background-color: white;
+    padding: 2px;
+    color: white;
+}
+.card-group{
+    background-color: rgb(29, 28, 27);
+}
+h5{
+    text-align: center;
+}
+.cform{
+    
+    color: rgb(133, 130, 130);
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+h6{
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+/*Página Obrigado*/
+.mainobg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #222;
+    flex-direction: column;
+   
+}
+h1,.hhhh{
+    font-size: 45px;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+   
+}
+.parg{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.vtt{
+    padding: 12px;
+    background: black;
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+    transition: all0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.vtt:hover{
+    border-radius: 16px;
+}
+
+.personais {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.card-text{
+    text-align: justify;
+    text-align: center;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: left;
+}
+
+.cardctt,p{
+    background-color: #222;
+    color: white;
+    
+}
+.slide{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.card-body,p{
+    text-align: center;
+}
+.fimfim{
+    background-color: #222;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.card-text img{
+    width: 25px;
+    height: 25px;
+    padding-right: 100pxs;
+    border: none;
+}
+.col-md-3 img{
+    background-color: #222 ;
+    background: #222;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    width: 150px;
+  
+    height: 150px;
+}
+.card-text2 img{
+    width: 25px;
+    height: 25px;
+    padding-right: 100pxs;
+    border: 0px;
+  
+}
+.col-md-3{
+    background-color: #222;
+   border: none;
+    padding-left: 100px;
+}
+.final{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.card-body h5{
+    margin-top: 10px;
+}
+.card-text3{
+    text-align: center;
+}
+.col-md-1{
+    background-color: #222;
+}
+
+   
+.hhhh2{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+}
+h4{
+    margin-top: 2px;
+}
+.parg{
+    margin-top: 1px;
+    text-align: center;
+}
+.hbhb{
+    margin-top: 1px;
+    text-align: center;
+}
+.mainobg img{
+    text-align: center;
+    justify-content: center;
+    padding-left: 42px;
+}
